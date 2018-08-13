@@ -7,8 +7,9 @@ import com.hand.domain.entity.Customer;
 import com.hand.domain.entity.CustomerEVO;
 import javax.servlet.http.Cookie;
 
-import org.apache.log4j.Logger;
+import ch.qos.logback.classic.Logger;
 import org.slf4j.LoggerFactory;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
